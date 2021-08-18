@@ -11,8 +11,6 @@ let input = document.querySelector('.age');
 
 // console.log(0 && 2);
 
-console.log(0 || undefined);
-
 
 // console.log(false || '' || 0 || 123);
 
