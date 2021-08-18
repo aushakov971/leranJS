@@ -1,0 +1,22 @@
+.text__center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contariner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  padding: 13px;
+  margin: 5px;
+  color: #000;
+  transition: .7s linear;
+}
+
+.button:hover {
+  color: red;
+}
