@@ -123,27 +123,52 @@
 
 
 
+// let button = document.querySelector('.go');
+// let inputLogin = document.querySelector('.logInInput');
+// let inputPass = document.querySelector('.passInput');
+// let error = document.querySelector('.error');
+
+// button.addEventListener('click', logIn);
+
+// function logIn() {
+//   if (inputLogin.value && inputPass.value) {
+//     console.log('logIn');
+//     inputLogin.value = '';
+//     inputPass.value = '';
+//     error.innerHTML = '';
+//   } else if (!inputLogin.value || !inputPass.value) {
+//     if (!inputLogin.value && !inputPass.value){
+//       return error.innerHTML = 'press logg & pass';
+//     }
+//     if (!inputLogin.value) {
+//       error.innerHTML = 'logIn empty'
+//     } else {
+//       error.innerHTML = 'password empty'
+//     }
+//   }
+// }
+
+
+// if (1 === 1) {
+//   console.log('1');
+// } else if (1 === 1) {
+//   console.log('2');
+// } else {
+//   console.log('false');
+// }
+
+
+
+
+
+let input = document.querySelector('.logInInput');
 let button = document.querySelector('.go');
-let inputLogin = document.querySelector('.logInInput');
-let inputPass = document.querySelector('.passInput');
-let error = document.querySelector('.error');
 
-button.addEventListener('click', logIn);
 
-function logIn() {
-  if (inputLogin.value && inputPass.value) {
-    console.log('logIn');
-    inputLogin.value = '';
-    inputPass.value = '';
-    error.innerHTML = '';
-  } else if (!inputLogin.value || !inputPass.value) {
-    if (!inputLogin.value && !inputPass.value){
-      return error.innerHTML = 'press logg & pass';
-    }
-    if (!inputLogin.value) {
-      error.innerHTML = 'logIn empty'
-    } else {
-      error.innerHTML = 'password empty'
-    }
-  }
-}
+  // if ('ECMAScript' === input.value) {
+  //   alert('«Верно!»');
+  // } else  {
+  //   alert('«Не знаете? ECMAScript!»');
+  // }
+
+console.log(1 + 1 && (2 || 3))
