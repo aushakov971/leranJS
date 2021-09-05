@@ -161,8 +161,8 @@
 
 
 
-let input = document.querySelector('.logInInput');
-let button = document.querySelector('.go');
+// let input = document.querySelector('.logInInput');
+// let button = document.querySelector('.go');
 
 
   // if ('ECMAScript' === input.value) {
@@ -171,4 +171,70 @@ let button = document.querySelector('.go');
   //   alert('«Не знаете? ECMAScript!»');
   // }
 
-console.log(1 + 1 && (2 || 3))
+// console.log(1 + 1 && (2 || 3))
+// [] - true массив
+// {} - false обєкт
+// let obj = {};
+
+console.log(Array.isArray(obj));
+
+let test = null;
+let test2
+console.log(test2);
+
+// 1 - String;
+// 2 - Number;
+// 3 - null;
+// 4 - undefined;
+// 5 - object(obj{обєкт} / mass[массив]);
+// 6 - boolean (true "false");
+// typeof - оператор для ідентинфікації типу данних.
+if(1 < 0) {
+  console.log('yes')
+} else if(1 > 0){
+  console.log('yesss')
+} else {
+  console.log('no')
+}
+
+console.log(-1 < 0)
+
+let test3 = 1;
+
+
+switch(test3) {
+  case 'red':
+    console.log(test3);
+    break;
+  case 2:
+    console.log(test3);
+    break;
+  case 5:
+    console.log(test3);
+    break;
+  default:
+    console.log(false);
+}
+
+
+let input = document.querySelector('.inputtt')
+let b1 = document.querySelector('.button')
+let value;
+let out = document.querySelector('.out1')
+console.log(out)
+// b1.onclick = f1;
+b1.addEventListener('click', f1)
+
+function f1() {
+  value = input.value;
+  if(value == 4) {
+    out.innerHTML = 'true'
+  } else {
+    out.innerHTML = 'false'
+  }
+}
+
+
+
+
+
